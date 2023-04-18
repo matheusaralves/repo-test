@@ -1,49 +1,4 @@
-# fraud-moving-sellers-op
-
-Official Documentation: [Fury Docs](https://furydocs.io/fraud-moving-sellers-op/)
-
-![technology Java](https://img.shields.io/badge/technology-Java-green.svg)
-![melicov](https://img.shields.io/badge/coverage-91.49%25-green.svg)
-
-# Contents
-* [Description](#description)
-* [Coding Guideline](#coding-guideline)
-* [Changelog](#changelog)
-* [Dependency Management](#dependency-management)
-* [Spring Boot App model for Java 17](#spring-boot-app-model-for-java-17)
-  * [Usage](#usage)
-    * [Scope](#scope)
-    * [Web Server](#web-server)
-    * [Main](#main)
-    * [Error Handling](#error-handling)
-    * [API Documentation](#api-documentation)
-  * [Release Process](#release-process)
-    * [Usage](#usage)
-    * [Questions](#questions)
-  * [About this Application](#about-this-application)
-
-
-
-# Description
-
-This application deals with the automation of a task that was previously done manually every day, including weekends.
-
-It is a query that is used to update tables of different teams in order to maintain or track sellers in their different industries.
-
-As soon as the application finishes executing the task, an e-mail is sent informing the business team regarding the changes that have occurred, explaining whether it is an automatic or manual process.
-
-
-# Coding Guideline
-For better development, please follow our [Coding Guideline](CODING_GUIDELINES.md).
-
-
-# Changelog
-To known the documented record of all the changes that this application undergoes, access the [Changelog](docs/CHANGELOG.md).
-
-# Dependency Management
-
-The proposed method for managing dependencies is `maven` and its configuration file is `pom.xml`. 
-
+[< Home](/)
 
 # Spring Boot App model for Java 17
 
@@ -123,3 +78,4 @@ APPLICATION=fraud-moving-sellers-op
 ```
 
 This is because of the [Configuration Service SDK](https://github.com/mercadolibre/fury_configuration-service-sdk/blob/master/README.md#atention).
+

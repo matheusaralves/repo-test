@@ -1,0 +1,28 @@
+openapi: 3.0.1
+info:
+  title: fraud-moving-sellers-op
+  description: fraud-moving-sellers-op
+  version: last
+servers:
+  - url: https://web-test_fraud-moving-sellers-op-service.furyapps.io
+    description: Scope web-test
+paths:
+  /ping:
+    get:
+      tags:
+        - Ping
+      description: Fury's health check
+      responses:
+        default:
+          description: Pong response
+          content:
+            text/plain:
+              example: pong
+components:
+  securitySchemes:
+    XAuthToken:
+      type: apiKey
+      in: header
+      name: X-Auth-Token
+security:
+  - XAuthToken: []
