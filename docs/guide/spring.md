@@ -69,7 +69,7 @@ You can find all available tags for your `Dockerfile.runtime` [here](https://git
 
 ## About this Application
 
-### Important: Environment Variables!
+### Important: Environment Variables!!!
 
 When running the application locally or during integration tests, it is necessary to define an environment variable:
 
