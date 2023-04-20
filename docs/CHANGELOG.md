@@ -45,17 +45,8 @@ logging of changes.
 - Remove empty sections from CHANGELOG, they occupy too much space and
 create too much noise in the file. People will have to assume that the
 missing sections were intentionally left out because they contained no
-notable changes. -->
+notable changes. 
+
+TEsting-->
 
 
-### Solar System Exploration, 1950s – 1960s
-
-- [ ] Mercury
-- [ ] Venus
-- [ ] Earth (Orbit/Moon)
-- [ ] Mars
-- [ ] Jupiter
-- [ ] Saturn
-- [ ] Uranus
-- [ ] Neptune
-- [ ] Comet Haley

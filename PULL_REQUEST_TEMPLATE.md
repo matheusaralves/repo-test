@@ -11,7 +11,7 @@
 
 ## Checklist
 
-- [ ] I follow as well as possible the guidelines indicated in How to Write a Git Commit Message
+- [ ] I follow as well as possible the guidelines indicated in [How to Write a Git Commit Message](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/)
 - [ ] I have performed a self-review to my own code
 - [ ] I have performed a review of the Code Quality Bot comments
 - [ ] I have added tests that prove my fix is effective or that my feature works
